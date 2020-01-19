@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.brknbs.physicalexerciseconsultant">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo64"
+        android:label="Physical Exercise Consultant"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+        <activity
+            android:name=".Login"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".SignUp"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Deneme"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".ExerciseCategories"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".NeckExercises"
+            android:label="Neck Exercises"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ShoulderExercises"
+            android:label="Shoulder Exercises"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".BackExercises"
+            android:label="Back Exercises"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ElbowExercises"
+            android:label="Elbow Exercises"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".KneeExercises"
+            android:label="Knee Exercises"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".HipExercises"
+            android:label="Hip Exercises"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".AnkleExercises"
+            android:label="Ankle Exercises"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".WristExercises"
+            android:label="Wrist Exercises"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".exerciseInfo"
+            android:label="Exercise Detail"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".MyLists"
+            android:label="My Exercise List"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Menu"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+    </application>
+
+</manifest>

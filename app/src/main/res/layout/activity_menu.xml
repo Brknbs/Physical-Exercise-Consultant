@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu"
+    android:background="@drawable/menubg3">
+
+    <Button
+        android:id="@+id/exercisesButton"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:text="EXERCISES"
+        android:background="@drawable/exercisesbuttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/exerciseListButton"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:text="MY EXERCISE LIST"
+        android:background="@drawable/exerciselistbuttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/logOutButton"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        android:text="LOG OUT"
+        android:background="@drawable/logoutbuttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="133dp"
+        android:fontFamily="@font/fredoka_one"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/showUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="153dp"
+        android:fontFamily="@font/amaranth"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/exercisesButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/logo64" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="1dp"
+        android:text="PYSICAL EXERCISE CONSULTANT"
+        android:textColor="@color/aaa"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</RelativeLayout>

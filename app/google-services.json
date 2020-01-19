@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "404170605458",
+    "firebase_url": "https://physical-exercise-consultant.firebaseio.com",
+    "project_id": "physical-exercise-consultant",
+    "storage_bucket": "physical-exercise-consultant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404170605458:android:0cff783e5b53a41d",
+        "android_client_info": {
+          "package_name": "com.brknbs.physicalexerciseconsultant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404170605458-s8ssbqdeo6cqdbnv948s161re1oi5974.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.brknbs.physicalexerciseconsultant",
+            "certificate_hash": "e4a3bc4fda5f154491a0a7b6fda8f8da03543d72"
+          }
+        },
+        {
+          "client_id": "404170605458-00bln3lcoru24qm1pdr7ktfjjfakqjea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbOHXSsU-l2hRLUg-xBsyeEUStAxViaNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404170605458-00bln3lcoru24qm1pdr7ktfjjfakqjea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
